@@ -1,0 +1,89 @@
+{
+  "name": "vscode-smoothtype",
+  "displayName": "TypoSmooth",
+  "description": "Extension to modify Visual Studio Code to allow for a smooth cursor animation while typing. Developed by Prasadbobby",
+  "version": "1.2.0",
+  "homepage": "https://github.com/prasadbobby/vscode-smoothtype",
+  "license": "MIT",
+  "publisher": "prasadbobby",
+  "author": {
+    "email": "knvdurgaprasad610@gmail.com",
+    "name": "Naga Venkata Durga Prasad(Prasad Bobby)",
+    "url": "http://prasadbobby.me"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/prasadbobby/vscode-typosmooth"
+  },
+  "bugs": {
+    "url": "https://github.com/prasadbobby/vscode-typosmooth/issues",
+    "email": "knvdurgaprasad610@gmail.com"
+  },
+  "icon": "images/icon.png",
+  "galleryBanner": {
+    "color": "#004956",
+    "theme": "dark"
+  },
+  "categories": [
+    "Other",
+    "Themes"
+  ],
+  "keywords": [
+    "cursor",
+    "caret",
+    "smooth",
+    "type",
+    "theme",
+    "smooth typer",
+    "smooth cursor"
+  ],
+  "engines": {
+    "vscode": "^1.9.1"
+  },
+  "activationEvents": [
+    "*"
+  ],
+  "main": "./extension",
+  "contributes": {
+    "commands": [
+      {
+        "command": "extension.enableAnimation",
+        "title": "SmoothType: Enable Animation"
+      },
+      {
+        "command": "extension.disableAnimation",
+        "title": "SmoothType: Disable Animation"
+      },
+      {
+        "command": "extension.reloadAnimation",
+        "title": "SmoothType: Reload Animation"
+      }
+    ],
+    "configuration": {
+      "title": "Smooth Type",
+      "properties": {
+        "smoothtype.autoReload": {
+          "description": "Ask before restarting after a command is successfully run.",
+          "type": "boolean",
+          "default": false
+        },
+        "smoothtype.duration": {
+          "description": "Duration in milliseconds for the cursor to travel from one character position (or line) to the next.",
+          "type": "number",
+          "default": 80
+        }
+      }
+    }
+  },
+  "scripts": {
+    "postinstall": "node ./node_modules/vscode/bin/install"
+  },
+  "dependencies": {
+    "sudo-prompt": "^8.2.0",
+    "tmp": "^0.0.33"
+  },
+  "devDependencies": {
+    "vscode": "^1.1.6",
+    "eslint": "^4.11.0"
+  }
+}
