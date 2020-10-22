@@ -10,7 +10,10 @@
 **This extension adds a smooth typing animation,
 similar to MS Office and the Windows 10 Mail app.**
 
+[![Downloads](https://img.shields.io/vscode-marketplace/d/prasadbobby.vscode-typosmooth.svg?style=for-the-badge)](https://marketplace.visualstudio.com/items?itemName=prasadbobby.vscode-typosmooth)
+[![Rating](https://img.shields.io/vscode-marketplace/r/prasadbobby.vscode-typosmooth.svg?style=for-the-badge)](https://marketplace.visualstudio.com/items?itemName=prasadbobby.vscode-typosmooth)
 
+**Get it from the [Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=prasadbobby.vscode-typosmooth).**
 
 
 **Note:** Please scroll down and read the section labeled [Important](#important).
