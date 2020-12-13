@@ -80,7 +80,7 @@
   },
   "dependencies": {
     "sudo-prompt": "^8.2.0",
-    "tmp": "^0.0.33"
+    "tmp": "^0.2.1"
   },
   "devDependencies": {
     "vscode": "^1.1.6",
