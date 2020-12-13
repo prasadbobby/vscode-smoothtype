@@ -79,7 +79,7 @@
     "postinstall": "node ./node_modules/vscode/bin/install"
   },
   "dependencies": {
-    "sudo-prompt": "^8.2.0",
+    "sudo-prompt": "^9.2.1",
     "tmp": "^0.0.33"
   },
   "devDependencies": {
